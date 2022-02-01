@@ -90,7 +90,7 @@ const Profile = () => {
                           <div className={styles.cart}>
                             <div className={styles.block_Turimg}>
                               <img
-                                src={`http://localhost:7000/${tur.img}`}
+                                src={`/${tur.img}`}
                                 alt=""
                               />
                             </div>
@@ -105,7 +105,7 @@ const Profile = () => {
                                 <h4>Название Отеля: {tur.hotel.name}</h4>
                                 <div className={styles.block_hotelimg}>
                                   <img
-                                    src={`http://localhost:7000/${tur.hotel.img}`}
+                                    src={`/${tur.hotel.img}`}
                                     alt=""
                                   />
                                 </div>
