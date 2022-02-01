@@ -17,7 +17,7 @@ app.get("*", (req, res) => {
 });
 
 const connect = async () => {
-  await mongoose.connect(MONGO_SERVER);
+  await mongoose.connect(process.env.MONGO_SERVER);
   console.log("Соединение успешно установлено");
 
   app.listen(port, () => {
