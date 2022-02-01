@@ -17,9 +17,7 @@ app.get("*", (req, res) => {
 });
 
 const connect = async () => {
-  await mongoose.connect(
-    "mongodb+srv://tamerlan:raduev@cluster0.14x5g.mongodb.net/TravelAgency"
-  );
+  await mongoose.connect(MONGO_SERVER);
   console.log("Соединение успешно установлено");
 
   app.listen(port, () => {
