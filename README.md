@@ -86,7 +86,7 @@ ___
 
 #### Над проектом работали ####
 
-1. Хусейн ( https://github.com/Husseyn99 )
+1. Магомед ( https://github.com/Husseyn99 )
 2. Умар ( https://github.com/buguz228 )
 3. Тамерлан ( https://github.com/Raduev )
 4. Магомед-Эми ( https://github.com/MsvMe )
